@@ -1,0 +1,196 @@
+html,
+body {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    text-align: center;
+    /* font-family: 'Open Sans', sans-serif; */
+    background-image: url(../img/shula_Master.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+.game {
+    width: 650px;
+    background-color: #4b0852;
+    margin: auto;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 4px #21270b;
+}
+
+
+
+.top-container {
+    padding: 10px 0;
+    font-size: 3rem;
+    background-color: #8a2764;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+h1 {
+    font-family: 'Odibee Sans', cursive;
+    color: rgb(212, 68, 176);
+    letter-spacing: 5px;
+    margin: 20px;
+    text-shadow: #474747 3px 5px 2px;
+}
+
+
+.top-container img {
+    width: 130px;
+    height: 130px;
+}
+
+
+
+.info-container,
+.bottom-info {
+    margin: auto;
+    padding: 7px;
+}
+
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.info {
+    margin: auto;
+    text-align: center;
+    position: relative;
+
+}
+
+h2 {
+    background-color: rgb(255, 250, 239);
+    border-radius: 10px;
+    padding: 3px 10px;
+    border: #3b0f0f solid 1px;
+
+}
+
+
+
+.info h2 {
+    display: inline-block;
+    width: 170px;
+    margin: 0 3px;
+    vertical-align: middle;
+}
+
+h2.smiley {
+    width: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+
+
+tbody {
+    border-collapse: collapse;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    cursor: pointer;
+}
+.table-game {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.cell .boom {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    z-index: +1;
+}
+
+
+
+.cell:hover {
+    background-color: #dd30ec;
+}
+
+
+
+.bottom-info {
+    padding: 10px;
+}
+
+.bottom-info h2 {
+    display: inline-block;
+    margin: 5px auto;
+    width: 230px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background-color: #bd30e0;
+    color: #c7bbd4;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: 1px solid #57180a;
+    box-shadow: 5px 6px 9px 2px rgba(0, 0, 0, 0.79);
+}
+
+ion-icon {
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color: rgb(87, 27, 13);
+}
+
+
+    .game-container {
+        padding: 0;
+        margin: 0;
+        border: none;
+        display: grid;
+        table-layout: auto;
+        margin: 5px 0;
+        overflow: hidden;
+        justify-content: center;
+    }
+    img {
+        width: 120px;
+    }
+    .smiley img {
+        width: 50px;
+        vertical-align: middle;
+    }
